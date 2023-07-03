@@ -20,7 +20,10 @@ public class Desafio_um { public static void main(String[] args) {
         System.out.println("Vai trabalhar!!");
     } else if (fome == 1 && dinheiro == 2) {
         System.out.println("Guarde o dinheiro");
-    } else if (fome == 2 && dinheiro == 2 )
-        System.out.println("Vai arrumar o que fazer então");
+    } else if (fome == 2 && dinheiro == 2 ){
+        System.out.println("Vai arrumar o que fazer então");}
+    else {
+        System.out.println("inválido");
+    }
 }
 }
