@@ -25,8 +25,12 @@ public class Desafio_dois { public static void main(String[] args) {
     preco_tres = entrada.nextDouble();
     entrada.nextLine();
 
-    if (preco_um < preco_dois <= preco_tres){
+    if (preco_um < preco_dois && preco_um < preco_tres){
         System.out.println("O produto mais barato é: " + nome1);
+    } else if (preco_dois < preco_um && preco_dois < preco_tres) {
+        System.out.println("O produto mais barato é: " + nome2);
+    } else{
+        System.out.println("O produto mais barato é: " + nome3);
     }
 
 
