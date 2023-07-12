@@ -1,6 +1,7 @@
 module com.example.desafios {
     requires javafx.controls;
     requires javafx.fxml;
+    requires org.testng;
 
 
     opens com.example.desafios to javafx.fxml;
