@@ -2,7 +2,7 @@ package com.example.desafios;
 
 import java.util.Scanner;
 
-public class Desafio_tres {public static void main(String[] args){
+public class Quiz {public static void main(String[] args){
 
     Scanner entrada = new Scanner(System.in);
     int pontos = 0;
@@ -16,10 +16,10 @@ public class Desafio_tres {public static void main(String[] args){
     quiz1 = entrada.nextLine();
 
             if (quiz1.equals("A")){
-                System.out.println("Acertou!" + nome);
+                System.out.println("Acertou " + nome + "!");
                 pontos += 1;
             } else {
-                System.out.println("Errou " + nome);
+                System.out.println("Errou " + nome + "!");
 
 
             }
@@ -28,11 +28,11 @@ public class Desafio_tres {public static void main(String[] args){
     quiz2 = entrada.nextLine();
 
             if (quiz2.equals("C")){
-                System.out.println("Acertou! " +nome);
+                System.out.println("Acertou " +nome+"!");
                 pontos +=  1;
 
             } else {
-                System.out.println("Errou! " +nome);
+                System.out.println("Errou " +nome +"!");
 
             }
 
@@ -41,13 +41,13 @@ public class Desafio_tres {public static void main(String[] args){
 
 
     if (quiz3.equals("C")){
-        System.out.println("Acertou! " +nome);
+        System.out.println("Acertou " +nome + "!");
         pontos += 1;
     } else {
-        System.out.println("Errou! " +nome);
+        System.out.println("Errou " +nome +"!");
 
     }
 
-    System.out.println(+pontos);
+    System.out.println("Você conseguiu um total de: "+pontos +" pontos!");
 }
 }
