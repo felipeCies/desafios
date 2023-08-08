@@ -26,6 +26,7 @@ public class Banco {
             depositar = (saldo + depositar);
             System.out.println("Seu saldo é: "+depositar+ " Reais");
         }
+
             scanner.close();
     }
 }
