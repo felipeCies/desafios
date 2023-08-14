@@ -1,13 +1,16 @@
 package com.example.desafios;
 
+import com.example.desafios.entities.Conta;
+
 import java.util.Scanner;
 
 public class Banco {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+       Scanner scanner = new Scanner(System.in);
         int escolha;
         double sacar, depositar;
         double saldo = 100.0;
+
 
         System.out.println("Qual a operação desejada: " + "\n1- Sacar" + "\n2- Depositar");
         escolha= scanner.nextInt();
