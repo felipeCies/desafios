@@ -1,0 +1,19 @@
+<script>
+var idadeAtual = prompt('Digite sua idade atual em anos: ');
+
+var idadeAtualNum = parseInt(idadeAtual);
+
+var idadeFutura = (idadeAtualNum + 30) * 365;
+
+var idadeMeses = (idadeAtualNum * 12) + 40;
+
+if (idadeMeses > 216) {
+    document.write('Maior de idade, pode votar,');
+} else if (idadeMeses >= 192 && idadeMeses < 216) {
+    document.write('Menor de idade mas pode votar,');
+} else {
+    document.write('Menor de idade e não vota,');
+}
+
+document.write(' A sua idade em dias daqui 30 anos será: ' + idadeFutura + ' dias');
+</script>
