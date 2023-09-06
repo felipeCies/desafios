@@ -1,0 +1,26 @@
+<script> 
+var nome = prompt('Digite seu nome: ');
+var sexo = prompt('Digite 1 se for homem e 2 se for mulher:');
+var idade = parseInt(prompt('Digite sua idade: '));
+var contribuicao = parseInt(prompt('Digite seu tempo de contribuição (em anos): '));
+
+let contribuicaoHomen = 35;
+let contribuicaoMulher = 30;
+let aposentadoriaHomen = (idade + contribuicao);
+let aposentadoriaMulher = (idade + contribuicao);
+
+if (sexo = 1 && aposentadoriaHomen >= 95)
+{
+document.write( nome + ' você pode se aposentar.');
+} else if (sexo = 1 && aposentadoriaHomen <95){
+document.write( nome + ' você não pode se aposentar.');
+}
+else if (sexo = 2 && aposentadoriaMulher >= 85)
+{
+document.write( nome + ' você pode se aposentar.');
+} else if (sexo = 2 && aposentadoriaMulher < 85){
+document.write( nome + ' você não pode se aposentar.');
+}
+  
+
+</script>
